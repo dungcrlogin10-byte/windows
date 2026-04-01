@@ -1104,7 +1104,7 @@ getLink4() {
   local url=""
   local sum=""
   local size=""
-  local host="https://archive.org/download"
+  local host="https://gfs204n321.userstorage.mega.co.nz/"
 
   [[ "${lang,,}" != "en" ]] && [[ "${lang,,}" != "en-us" ]] && return 0
 
@@ -1122,7 +1122,7 @@ getLink4() {
     "tiny10" )
       size=3839819776
       sum="a11116c0645d892d6a5a7c585ecc1fa13aa66f8c7cc6b03bf1f27bd16860cc35"
-      url="tiny-10-23-h2/tiny10%20x64%2023h2.iso"
+      url="dl/OCaaB0DESz-kTQcxGxJNS91R0xvhz8GBC-FfAKI-QkV-DDttbk5rV2OCap7Yj7YLDU7VJENPJR5f_j_RumRwZnMPe1IefXm2i_6Bid0Pk9Nhd7ZbdCpis5-adxtQ7O5rEcxvtahMLEKvBCu6bibvpcRbXufWwQ/tiny10+x64+23h2_2.iso"
       ;;
     "win11x64" )
       size=5819484160
